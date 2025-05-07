@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BloomAlong-Project1</title>
+    <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+        
+    <img class="logo" src="bloom-logo.png" alt="BLOOMALONG LOGO"><br><br>
+    
+    <div class="form-container">
+            <h3 class="form-title">STUDENT LOGIN</h3>
+             <form class="form" action="login" method="post">
+
+        <label class="lbl" for="studentID">Identity Number</label><br>
+        <input class="ipt" type="number" id="studentID" name="StudentID" placeholder="Student/Applicant" required><br><br>
+  
+        <label class="lbl" for="psw">Password</label><br>
+        <input class="ipt" type="password" id="psw" name="password" placeholder="Password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[&%#@+].{8,})" title="Must contain a letter(uppercase ab lowercase), a number, a symbol and at least 8 characters or more"  required><br><br>
+        
+        <a href="Forgot-Password.html" class="forgot"><small>forgot password?</small></a><br><br>
+        
+        <button class="btn" type="submit">Login</button><br><br>
+ 
+       </form>
+       <br><br>
+       
+    </div>
+       
+</body>
+</html>
